@@ -2,6 +2,8 @@
 
 SPSS Python Extension function that runs multiple Mplus child models to calculate changes in R2 for all predictors in a parent model. The repository also contains the function "analyzeMplusDeltaR2" that will collect information from the child models and report the change in R2 for each predictor in an output dataset.
 
+This and other SPSS Python Extension functions can be found at http://www.stat-help.com/python.html
+
 ##Usage of runMplusDeltaR2
 **runMplusDeltaR2(MplusFile, outDirectory, removeVars)**
 * "MplusFile" is a required argument indicating Mplus input file that is to form the basis for the analyses.
